@@ -1,10 +1,9 @@
-let t = "A";
-var code = t.codePointAt(0);
-console.log(code);
-
-let x = Math.floor(Math.random()*62 +62);
+//var x = Math.floor(Math.random()*62 +62);
+let a = document.getElementById("loading");
 
 let i =0;
+
+//loading 
 for(let i=0;i<=54;++i){
     let x = Math.floor(Math.random()*62 +62);
     document.write(String.fromCharCode(x));
@@ -16,14 +15,4 @@ for(let i=0;i<=54;++i){
 
     }
     document.write("<br>")
-}
-//loading 
-window.onload = function(){
-    setTimeout(function(){
-        
-    },3000)
-    setTimeout(function(){
-        
-    },3000)
-    
 }
