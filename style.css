@@ -43,12 +43,15 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 100px,100px,100px,100px;
-    grid-template-rows: auto;
-    background-color: black;
-    gap:10px;
+    grid-template-columns: 1fr 1fr  1fr 1fr ;
+    grid-template-rows: 900px;
+    gap: 5px;
+    
 }
 .Block{
     color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center; 
     
 }
