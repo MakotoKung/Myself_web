@@ -1,4 +1,54 @@
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
     pointer-events: none;
+    height: 100vh;
+   
+}
+.background{
+    background-image: linear-gradient(#F88AFC,#D1A5FD,#A9C1FE,#82DCFF);
+    
+}
+.logo{ 
+    position:relative;
+    background-color: white;
+    width: 210px;
+    border-radius: 100%;
+    padding: 5px;
+    left:45%;
+    top: 300px;
+    z-index:1;
+    animation: rotate 2s ;
+    
+}
+.Op1{
+    opacity: 1;
+}
+.Op0{
+    opacity: 0;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        animation-delay: 0.5s;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px,100px,100px,100px;
+    grid-template-rows: auto;
+    background-color: black;
+    gap:10px;
+}
+.Block{
+    color: white;
+    
 }
