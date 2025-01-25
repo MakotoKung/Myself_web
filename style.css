@@ -21,6 +21,16 @@ body{
     animation: rotate 2s ;
     
 }
+#logo-nav{
+    position: relative;
+    background-color: white;
+    width: 40px;
+    border-radius: 100%;
+    padding: 5px;
+    left: 10px;
+    
+    z-index:99;
+}
 .Op1{
     opacity: 1;
 }
@@ -40,18 +50,50 @@ body{
         animation-delay: 0.5s;
     }
 }
-
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr  1fr 1fr ;
-    grid-template-rows: 900px;
-    gap: 5px;
+.nav{
+    display: flex;
+    position: fixed;
+    background-color: #a569bd;
+    gap: 20px;
+    padding:10px;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    left: -10px;
+    border:20px;
+    align-items: center;
+    
     
 }
-.Block{
+.item{
+    position: relative;
     color: white;
-    background-color: black;
-    padding: 20px;
-    text-align: center; 
+    left: 88%;
     
+   
 }
+
+
+.Block{ 
+    position: relative;
+    background-color: #CCCCFF;
+    width: 480px;
+    height: 700px;
+    left: -5px;
+    top: 10px;
+    border: 3px solid white
+
+}
+#Block2{
+    top: -41em;
+    left: 30em;
+}
+#Block3{
+    top: -85.1em;
+    left: 60em;
+}
+#Block4{
+    top: -129.28em;
+    left: 90.3em;
+}
+

@@ -1,10 +1,10 @@
 var loading = document.getElementById('loading');
-var menu = document.getElementById('menu');
+var detail = document.getElementById('show');
 
 
 setTimeout(() => {
     loading.remove();
-    menu.classList.remove('Op0');
+    detail.classList.remove('Op0');
 }, 2000);
 
 
