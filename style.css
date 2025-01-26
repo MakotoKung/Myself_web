@@ -3,7 +3,12 @@ body{
     overflow-y: hidden;
     pointer-events: none;
     height: 100vh;
-    background-image: url(IMG_3472.jpg);
+    background-image: url(img/IMG_3475.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+
    
 }
 .background{
