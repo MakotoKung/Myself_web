@@ -3,12 +3,15 @@ body{
     overflow-y: hidden;
     pointer-events: none;
     height: 100vh;
+    background-image: url(IMG_3472.jpg);
    
 }
 .background{
-    background-image: linear-gradient(#F88AFC,#D1A5FD,#A9C1FE,#82DCFF);
+    /*background-image: linear-gradient(#F88AFC,#D1A5FD,#A9C1FE,#82DCFF);*/
+
     
 }
+
 .logo{ 
     position:relative;
     background-color: white;
